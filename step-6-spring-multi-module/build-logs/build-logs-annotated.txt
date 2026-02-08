@@ -1,0 +1,24 @@
+# step-6 build logs 해설
+
+## gradle-build-output.txt
+- app/admin 모듈의 bootJar 빌드 수행
+- 공통 모듈(common)을 의존성으로 포함
+
+## docker-build-output.txt
+- docker compose build 실행
+- app/admin 이미지 생성
+
+## app-bootrun-output.txt
+- app-service bootRun 실행 로그
+
+## admin-bootrun-output.txt
+- admin-service bootRun 실행 로그
+
+## docker-compose-output.txt
+- docker compose up/down 실행 로그
+
+## docker-compose-ps.txt
+- docker compose 상태 출력
+
+## curl-output.txt
+- /app/hello, /admin/hello 요청 결과

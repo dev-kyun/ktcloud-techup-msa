@@ -1,0 +1,26 @@
+# app-run-output 해설
+
+# core/util/app 컴파일 및 클래스 준비
+> Task :core:compileJava UP-TO-DATE
+> Task :util:compileJava UP-TO-DATE
+> Task :app:compileJava UP-TO-DATE
+> Task :app:processResources NO-SOURCE
+> Task :app:classes UP-TO-DATE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar UP-TO-DATE
+> Task :util:processResources NO-SOURCE
+> Task :util:classes UP-TO-DATE
+> Task :util:jar UP-TO-DATE
+
+# app 모듈 run 실행
+> Task :app:run
+
+# 애플리케이션 출력
+[APP] *** 홍길동 ***
+
+# 경고/리포트 안내 (상세 생략)
+
+# 빌드 성공 요약
+BUILD SUCCESSFUL in 637ms
+6 actionable tasks: 1 executed, 5 up-to-date

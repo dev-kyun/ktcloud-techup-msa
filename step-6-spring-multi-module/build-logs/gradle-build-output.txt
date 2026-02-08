@@ -1,0 +1,59 @@
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :jar
+> Task :assemble
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :check UP-TO-DATE
+> Task :build
+> Task :common:compileJava
+> Task :admin-service:compileJava
+> Task :admin-service:processResources
+> Task :admin-service:classes
+> Task :admin-service:resolveMainClassName
+> Task :common:processResources NO-SOURCE
+> Task :common:classes
+> Task :common:jar
+> Task :admin-service:bootJar
+> Task :admin-service:jar SKIPPED
+> Task :admin-service:assemble
+> Task :admin-service:compileTestJava NO-SOURCE
+> Task :admin-service:processTestResources NO-SOURCE
+> Task :admin-service:testClasses UP-TO-DATE
+> Task :admin-service:test NO-SOURCE
+> Task :admin-service:check UP-TO-DATE
+> Task :admin-service:build
+> Task :app-service:compileJava
+> Task :app-service:processResources
+> Task :app-service:classes
+> Task :app-service:resolveMainClassName
+> Task :app-service:bootJar
+> Task :app-service:jar SKIPPED
+> Task :app-service:assemble
+> Task :app-service:compileTestJava NO-SOURCE
+> Task :app-service:processTestResources NO-SOURCE
+> Task :app-service:testClasses UP-TO-DATE
+> Task :app-service:test NO-SOURCE
+> Task :app-service:check UP-TO-DATE
+> Task :app-service:build
+> Task :common:assemble
+> Task :common:compileTestJava NO-SOURCE
+> Task :common:processTestResources NO-SOURCE
+> Task :common:testClasses UP-TO-DATE
+> Task :common:test NO-SOURCE
+> Task :common:check UP-TO-DATE
+> Task :common:build
+
+[Incubating] Problems report is available at: file:///Users/devkyun/Desktop/dev/ktcloud/gradle/msa/step-6-spring-multi-module/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 2s
+11 actionable tasks: 11 executed

@@ -1,0 +1,27 @@
+# projects-output 해설
+
+# projects Task 실행
+> Task :projects
+
+# 모듈 목록 출력 시작
+Projects:
+
+------------------------------------------------------------
+Root project 'step-4-multi-module'
+------------------------------------------------------------
+
+Root project 'step-4-multi-module'
++--- Project ':admin'
++--- Project ':app'
++--- Project ':core'
+\--- Project ':util'
+
+# 참고: 각 모듈의 Task 목록은 :module:tasks로 확인 가능
+To see a list of the tasks of a project, run gradlew <project-path>:tasks
+For example, try running gradlew :admin:tasks
+
+# 경고/리포트 안내 (상세 생략)
+
+# 빌드 성공 요약
+BUILD SUCCESSFUL in 662ms
+1 actionable task: 1 executed

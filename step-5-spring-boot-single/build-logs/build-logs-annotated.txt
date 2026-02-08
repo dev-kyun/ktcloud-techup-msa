@@ -1,0 +1,19 @@
+# step-5 build logs 해설
+
+## gradle-build-output.txt
+- 단일 모듈 bootJar 빌드 수행
+
+## bootrun-output.txt
+- bootRun 실행 로그
+
+## docker-build-output.txt
+- docker compose build 실행
+
+## docker-compose-output.txt
+- docker compose up/down 실행 로그
+
+## docker-compose-ps.txt
+- docker compose 상태 출력
+
+## curl-output.txt
+- /app/hello, /admin/hello 요청 결과

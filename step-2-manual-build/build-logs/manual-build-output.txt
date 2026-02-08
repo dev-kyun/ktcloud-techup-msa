@@ -1,0 +1,27 @@
+=== 수동 빌드 시작 ===
+1. Java 소스코드 컴파일...
+- 이전 빌드 산출물 정리
+컴파일 완료!
+build-output/classes/com/kyun/example/repository/UserRepository.class
+build-output/classes/com/kyun/example/app/Main.class
+build-output/classes/com/kyun/example/service/UserService.class
+2. MANIFEST.MF 파일 생성...
+3. JAR 파일 패키징...
+Manifest를 추가함
+추가하는 중: com/(입력 = 0) (출력 = 0)(0%를 저장함)
+추가하는 중: com/kyun/(입력 = 0) (출력 = 0)(0%를 저장함)
+추가하는 중: com/kyun/example/(입력 = 0) (출력 = 0)(0%를 저장함)
+추가하는 중: com/kyun/example/app/(입력 = 0) (출력 = 0)(0%를 저장함)
+추가하는 중: com/kyun/example/app/Main.class(입력 = 1277) (출력 = 693)(45%를 감소함)
+추가하는 중: com/kyun/example/repository/(입력 = 0) (출력 = 0)(0%를 저장함)
+추가하는 중: com/kyun/example/repository/UserRepository.class(입력 = 320) (출력 = 246)(23%를 감소함)
+추가하는 중: com/kyun/example/service/(입력 = 0) (출력 = 0)(0%를 저장함)
+추가하는 중: com/kyun/example/service/UserService.class(입력 = 603) (출력 = 370)(38%를 감소함)
+JAR 패키징 완료!
+-rw-r--r--@ 1 devkyun  staff  2901 Feb  7 23:57 build-output/myapp.jar
+4. 애플리케이션 실행 테스트...
+실행 성공!
+출력 결과:
+홍길동
+Implementation-Version: 0.0.1-SNAPSHOT
+=== 수동 빌드 완료 ===

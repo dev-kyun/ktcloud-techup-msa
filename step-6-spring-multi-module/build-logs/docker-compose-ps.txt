@@ -1,0 +1,3 @@
+NAME                                         IMAGE                                      COMMAND               SERVICE             CREATED             STATUS              PORTS
+step-6-spring-multi-module-admin-service-1   step-6-spring-multi-module-admin-service   "java -jar app.jar"   admin-service       4 seconds ago       Up 3 seconds        0.0.0.0:8082->8082/tcp
+step-6-spring-multi-module-app-service-1     step-6-spring-multi-module-app-service     "java -jar app.jar"   app-service         4 seconds ago       Up 3 seconds        0.0.0.0:8081->8081/tcp

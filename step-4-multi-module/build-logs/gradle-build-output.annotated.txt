@@ -1,0 +1,83 @@
+# gradle-build-output 해설
+
+# clean 단계
+> Task :clean
+> Task :admin:clean UP-TO-DATE
+> Task :app:clean UP-TO-DATE
+> Task :core:clean UP-TO-DATE
+> Task :util:clean UP-TO-DATE
+
+# 루트 및 모듈 컴파일/패키징
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :jar
+> Task :assemble
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :check UP-TO-DATE
+> Task :build
+
+# admin 모듈 빌드 흐름
+> Task :core:compileJava
+> Task :util:compileJava
+> Task :admin:compileJava
+> Task :admin:processResources NO-SOURCE
+> Task :admin:classes
+> Task :admin:jar
+> Task :core:processResources NO-SOURCE
+> Task :core:classes
+> Task :core:jar
+> Task :util:processResources NO-SOURCE
+> Task :util:classes
+> Task :util:jar
+> Task :admin:startScripts
+> Task :admin:distTar
+> Task :admin:distZip
+> Task :admin:assemble
+> Task :admin:compileTestJava
+> Task :admin:processTestResources NO-SOURCE
+> Task :admin:testClasses
+> Task :admin:test
+> Task :admin:check
+> Task :admin:build
+
+# app 모듈 빌드 흐름
+> Task :app:compileJava
+> Task :app:processResources NO-SOURCE
+> Task :app:classes
+> Task :app:jar
+> Task :app:startScripts
+> Task :app:distTar
+> Task :app:distZip
+> Task :app:assemble
+> Task :app:compileTestJava
+> Task :app:processTestResources NO-SOURCE
+> Task :app:testClasses
+> Task :app:test
+> Task :app:check
+> Task :app:build
+
+# core/util 모듈 테스트/빌드 완료
+> Task :core:assemble
+> Task :core:compileTestJava
+> Task :core:processTestResources NO-SOURCE
+> Task :core:testClasses
+> Task :core:test
+> Task :core:check
+> Task :core:build
+> Task :util:assemble
+> Task :util:compileTestJava
+> Task :util:processTestResources NO-SOURCE
+> Task :util:testClasses
+> Task :util:test
+> Task :util:check
+> Task :util:build
+
+# 경고/리포트 안내 (상세 생략)
+
+# 빌드 성공 요약
+BUILD SUCCESSFUL in 2s
+28 actionable tasks: 24 executed, 4 up-to-date

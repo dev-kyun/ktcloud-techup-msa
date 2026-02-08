@@ -1,0 +1,26 @@
+# admin-run-output 해설
+
+# core/util/admin 컴파일 및 클래스 준비
+> Task :core:compileJava UP-TO-DATE
+> Task :util:compileJava UP-TO-DATE
+> Task :admin:compileJava UP-TO-DATE
+> Task :admin:processResources NO-SOURCE
+> Task :admin:classes UP-TO-DATE
+> Task :core:processResources NO-SOURCE
+> Task :core:classes UP-TO-DATE
+> Task :core:jar UP-TO-DATE
+> Task :util:processResources NO-SOURCE
+> Task :util:classes UP-TO-DATE
+> Task :util:jar UP-TO-DATE
+
+# admin 모듈 run 실행
+> Task :admin:run
+
+# 애플리케이션 출력
+[ADMIN] *** 관리자: 홍길동 ***
+
+# 경고/리포트 안내 (상세 생략)
+
+# 빌드 성공 요약
+BUILD SUCCESSFUL in 518ms
+6 actionable tasks: 1 executed, 5 up-to-date

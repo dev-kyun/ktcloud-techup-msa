@@ -1,0 +1,10 @@
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :run
+홍길동
+Implementation-Version: (none)
+
+BUILD SUCCESSFUL in 566ms
+2 actionable tasks: 1 executed, 1 up-to-date

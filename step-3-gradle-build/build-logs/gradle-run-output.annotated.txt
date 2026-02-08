@@ -1,0 +1,17 @@
+# gradle-run-output 해설
+
+# run Task는 application 플러그인의 실행 경로 사용
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+# Gradle run 실행
+> Task :run
+
+# 애플리케이션 출력
+홍길동
+Implementation-Version: (none)
+
+# 빌드 성공 요약
+BUILD SUCCESSFUL in 566ms
+2 actionable tasks: 1 executed, 1 up-to-date

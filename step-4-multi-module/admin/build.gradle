@@ -1,0 +1,12 @@
+plugins {
+    id 'application'
+}
+
+dependencies {
+    implementation project(':core')
+    implementation project(':util')
+}
+
+application {
+    mainClass = 'com.kyun.multi.admin.MainAdmin'
+}

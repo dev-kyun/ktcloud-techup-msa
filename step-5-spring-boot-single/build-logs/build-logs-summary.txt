@@ -1,0 +1,6 @@
+# step-5 build logs 요약
+
+- bootJar 빌드 완료
+- bootRun 실행 로그 저장
+- docker compose build/up/down 로그 저장
+- curl 요청 결과 저장

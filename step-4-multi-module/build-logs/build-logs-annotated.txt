@@ -1,0 +1,23 @@
+# step-4 build logs 해설
+
+## gradle-build-output.txt
+- 전체 모듈 build Task 실행
+- core/util 컴파일 후 app/admin 실행 모듈 빌드
+## gradle-build-output.annotated.txt
+- build 로그 상세 해설
+
+## projects-output.txt
+- settings.gradle 기준으로 모듈 목록 출력
+- projects-output.annotated.txt에 상세 해설 포함
+
+## app-run-output.txt
+- :app:run Task 실행
+- [APP] 출력 확인
+## app-run-output.annotated.txt
+- app run 로그 상세 해설
+
+## admin-run-output.txt
+- :admin:run Task 실행
+- [ADMIN] 출력 확인
+## admin-run-output.annotated.txt
+- admin run 로그 상세 해설

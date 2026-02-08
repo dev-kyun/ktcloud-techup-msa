@@ -1,0 +1,14 @@
+# step-3 build logs 해설
+
+## gradle-build-output.txt
+- Gradle이 compileJava → jar → build 흐름으로 빌드 수행
+- jar Task에서 MANIFEST 메타정보 포함
+
+## gradle-run-output.txt
+- application 플러그인 run Task로 실행
+- run은 클래스패스로 실행하므로 MANIFEST 메타정보가 적용되지 않을 수 있음
+
+## java-jar-output.txt
+- JAR 내부 MANIFEST를 사용해 실행
+- Implementation-Version 값이 출력에 반영됨
+- 외부 라이브러리(StringUtils)가 JAR에 포함되지 않아 실행 실패

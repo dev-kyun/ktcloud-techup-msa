@@ -1,0 +1,2 @@
+NAME                                             IMAGE                                          COMMAND               SERVICE              CREATED             STATUS              PORTS
+step-5-spring-boot-single-spring-boot-single-1   step-5-spring-boot-single-spring-boot-single   "java -jar app.jar"   spring-boot-single   5 seconds ago       Up 4 seconds        0.0.0.0:8080->8080/tcp

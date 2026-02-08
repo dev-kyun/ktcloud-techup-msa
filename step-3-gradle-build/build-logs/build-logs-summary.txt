@@ -1,0 +1,6 @@
+# step-3 build logs 요약
+
+- Gradle build 실행, jar/assemble까지 완료
+- Gradle run 실행, 콘솔 출력 확인
+- java -jar 실행, MANIFEST 메타정보 출력 확인
+- 외부 라이브러리 미포함으로 실행 실패

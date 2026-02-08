@@ -1,0 +1,3 @@
+rootProject.name = 'step-6-spring-multi-module'
+
+include 'common', 'app-service', 'admin-service'

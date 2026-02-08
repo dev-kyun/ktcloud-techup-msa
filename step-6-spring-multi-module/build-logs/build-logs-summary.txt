@@ -1,0 +1,6 @@
+# step-6 build logs 요약
+
+- app/admin bootJar 빌드 완료
+- app/admin bootRun 실행 로그 저장
+- docker compose build/up/down 로그 저장
+- curl 요청 결과 저장

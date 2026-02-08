@@ -1,0 +1,7 @@
+# 수동 빌드 로그 요약
+
+- javac로 .java를 .class로 컴파일하고 build-output/classes에 클래스가 생성됨
+- MANIFEST.MF를 생성해 JAR 실행 진입점(Main-Class)을 지정함
+- jar로 myapp.jar를 패키징하며 클래스들이 포함됨
+- java -jar 실행 테스트가 성공했고 출력은 "홍길동"과 Implementation-Version
+- 전체 흐름이 명시적 단계(컴파일 → 패키징 → 실행)로 수행됨

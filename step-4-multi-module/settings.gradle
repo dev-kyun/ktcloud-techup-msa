@@ -1,0 +1,3 @@
+rootProject.name = 'step-4-multi-module'
+
+include 'app', 'admin', 'core', 'util'

@@ -1,0 +1,7 @@
+# step-5 curl output
+
+GET http://localhost:8080/app/hello
+{"message":"[APP] 홍길동"}
+
+GET http://localhost:8080/admin/hello
+{"message":"[ADMIN] 홍길동"}

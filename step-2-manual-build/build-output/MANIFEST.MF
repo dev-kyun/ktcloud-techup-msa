@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Main-Class: com.kyun.example.app.Main
+Implementation-Title: step-2-manual-build
+Implementation-Version: 0.0.1-SNAPSHOT
+Build-Jdk-Spec: 21
+

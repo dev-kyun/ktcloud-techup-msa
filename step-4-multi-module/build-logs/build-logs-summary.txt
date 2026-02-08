@@ -1,0 +1,5 @@
+# step-4 build logs 요약
+
+- Gradle build 실행, 모든 모듈 컴파일/테스트 통과
+- projects 출력으로 모듈 목록 확인
+- app/admin 모듈 run 실행, 출력 확인

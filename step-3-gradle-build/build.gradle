@@ -1,0 +1,65 @@
+// 빌드에 필요한 플러그인 활성화
+plugins {
+    // Java 컴파일/테스트 Task 제공
+    id 'java'
+    // run Task 제공, mainClass와 연결
+    id 'application'
+}
+
+// 프로젝트 식별자와 버전
+group = 'com.kyun'
+version = '0.0.1-SNAPSHOT'
+
+// 의존성 다운로드 저장소
+repositories {
+    // maven 저장소
+    mavenCentral()
+}
+
+// 의존성 스코프
+dependencies {
+    // implementation: 컴파일+런타임 모두 포함
+    implementation 'org.apache.commons:commons-lang3:3.14.0'
+}
+
+// 실행 진입점 지정
+application {
+    // run Task가 실행할 Main 클래스
+    mainClass = 'com.kyun.example.app.Main'
+}
+
+// 소스/타깃 JDK 버전 설정
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
+
+// JAR 메타정보 설정
+jar {
+    manifest {
+        // Main-Class: java -jar 실행 진입점
+        // Implementation-Title/Version: 배포/추적용 메타정보
+        attributes(
+            'Main-Class': 'com.kyun.example.app.Main',
+            'Implementation-Title': project.name,
+            'Implementation-Version': project.version
+        )
+    }
+}
+
+
+// 커스텀 Task 등록
+tasks.register('hello') {
+    // doLast: Task 실행 시점에 동작
+    doLast {
+        println '안녕하세요!'
+    }
+}
+
+tasks.register('goodbye') {
+    // dependsOn: Task 실행 순서 지정
+    dependsOn hello
+    doLast {
+        println '안녕히 가세요!'
+    }
+}
