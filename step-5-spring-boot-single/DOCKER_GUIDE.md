@@ -15,7 +15,7 @@
 
 ```aiexclude
 # 1. 기반 이미지 (OS + 런타임)
-FROM eclipse-temurin:21-jre
+FROM amazoncorretto:21
 
 # 2. 작업 디렉토리 설정
 WORKDIR /app

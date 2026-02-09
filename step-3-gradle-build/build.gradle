@@ -2,7 +2,7 @@
 plugins {
     // Java 컴파일/테스트 Task 제공
     id 'java'
-    // run Task 제공, mainClass와 연결
+    //  run Task 제공, mainClass와 연결
     id 'application'
 }
 
